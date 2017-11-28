@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="./material.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./material.min.js"></script>
+</head>
+<body>
+<div class="main">
+    <div class="left">
+        <button id="connect-button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+            Connect
+        </button>
+        <input id='input-text' type='text'/>
+        <button id='send-message-button'>Send</button>
+
+        <div id="tabsList">
+
+        </div>
+        <div class="component-repository">
+            <div class="tab" data-tab-id="0">
+                <div class="split">
+                    <div class="content">
+                        <div class="title">Google Search Engine</div>
+                        <div class="info">78 &bull; http://www.google.com/</div>
+                    </div>
+                    <div class="toggle">
+                        <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch">
+                            <input type="checkbox" id="switch" class="mdl-switch__input">
+                            <span class="mdl-switch__label"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <div id="response">Nothing yet..</div>
+    </div>
+</div>
+<script src='./main.js'></script>
+</body>
+</html>

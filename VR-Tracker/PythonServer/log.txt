@@ -1,0 +1,14 @@
+DEBUG:root:-------------------
+
+DEBUG:root:listenToHandshake
+DEBUG:root:message"HANDSHAKE_ACK"
+INFO:root:newClient
+DEBUG:root:message_recievedFEED_ME
+DEBUG:root:captureUdpPackets:started
+DEBUG:root:-------------------
+
+DEBUG:root:Uncaught exception: [Errno 22] Invalid argument
+DEBUG:root:-------------------
+
+DEBUG:root:listenToHandshake
+DEBUG:root:message"HANDSHAKE_ACK"

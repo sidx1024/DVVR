@@ -1,0 +1,71 @@
+html,
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  color: #EEE;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-height: 100%;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+.main .left,
+.main .right {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-content: flex-start;
+  width: 50%;
+  padding: 5% 5% 0 5%;
+}
+.main .left {
+  background-color: #5d686e;
+}
+.main .right {
+  background-color: #8b9da6;
+}
+.tabs-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  height: 40%;
+}
+.tab {
+  display: block;
+  font-family: "Roboto";
+  padding: 16px;
+  box-shadow: rgba(0, 0, 0, 0.15) 5px 5px 15px;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  margin-bottom: 16px;
+  cursor: pointer;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+}
+.tab .split {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 64px;
+}
+.tab .split .content .title {
+  font-weight: 300;
+  font-size: 22px;
+  color: #222;
+  padding: 4px;
+}
+.tab .split .content .info {
+  font-size: 12px;
+  color: #888;
+  padding: 4px;
+}
+.tab .split .toggle {
+  margin-left: auto;
+  padding: 8px;
+}
+.component-repository {
+  display: none;
+}
