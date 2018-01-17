@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --progress --hot --open --host 192.168.15.131",
-    "start-local": "webpack-dev-server --env.local --progress --hot --open --host 192.168.15.131"
+    "start": "webpack-dev-server --progress --hot --open --host 192.168.225.31",
+    "start-local": "webpack-dev-server --env.local --progress --hot --open --host 192.168.225.31"
   },
   "dependencies": {
     "deck.gl": "^4.1.0",

@@ -112,7 +112,7 @@ class Example extends PureComponent {
       projectionMode: COORDINATE_SYSTEM.IDENTITY,
       getPosition: d => d.position,
       getNormal: d => d.normal,
-      radiusPixels: 1
+      radiusPixels: 2
     });
   }
 
