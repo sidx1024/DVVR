@@ -1,6 +1,8 @@
 # DVVR [Work In Progress]
 Data Visualization using Virtual Reality (extending DECK.GL)
 
+By leveraging the power of deck.gl visualization tool, we want to view complex datasets in stereoscopic view in a virtual environment.
+
 # Point Cloud Example
 ## Screenshot
 ![](https://github.com/sidx1024/DVVR/raw/master/docs/vr-point-cloud-laz-1.png)
