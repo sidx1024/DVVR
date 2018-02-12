@@ -1,0 +1,13 @@
+{
+  "name": "dvvr",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --progress --hot --open",
+    "start-local": "webpack-dev-server --env.local --progress --hot --open",
+	"laz": "cd point-cloud-laz && webpack-dev-server --progress --hot --open",
+	"ply": "cd point-cloud-ply && webpack-dev-server --progress --hot --open",
+	"laz-install": "cd point-cloud-laz && npm install && cd ..",
+	"ply-install": "cd point-cloud-ply && npm install && cd .."
+  }
+}
