@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    "react"
+  ],
+  "extends": [
+    "uber-jsx",
+    "uber-es2015",
+    "prettier",
+    "prettier/react",
+  ],
+  "rules": {
+    "guard-for-in": 0,
+    "no-inline-comments": 0,
+    "camelcase": 0,
+    "react/forbid-prop-types": 0
+  }
+}
+
